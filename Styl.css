@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header .container{
+     display: flex;
+     width: 100%;
+}
+
+img{
+    width: 100px;
+    border: 10px;
+    background-color: rgb(202, 187, 169);
+}
+
+
+header .contanier-nav{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 0px;
+    width: 100%;
+    max-height: 100px;
+}
+
+header a{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-weight: bold;  
+    padding: 1px 0px;  
+}
+
+header a:hover{
+    color: rgb(125, 138, 196);
+}
+
+header nav{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    flex-direction:column;
+    justify-content: center;
+}
+
+
+#hero{
+    height: 400px;
+    overflow: hidden;
+}
+
+
+
+.item-carrusel{
+    height: 100%;
+    position: relative;
+}
+
+.carrusel{
+    background-color: aqua;
+    height: 100%;
+}
+
+.flechas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+#carrusel-1{
+    background-image: url("img/IMG-20240222-WA0134.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#carrusel-2 {
+    background-image: url("img/IMG-20240222-WA0136.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+}
+
+#carrusel-3 {
+    background-image: url("img/IMG-20240222-WA0137.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+#carrusel-4 {
+    background-image: url("img/IMG-20240222-WA0138.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+#quienes-somos{
+    height: 350px;
+    text-align: center;
+}
+
+#quienes-somos h1{
+    font-size: 3.5em;
+}
+
+.color-acent{color: rgb(212, 45, 204);}
+
+#nuestros-estilos{
+    border-radius: 7px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-estilos h2{
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+#nuestros-estilos .container{
+    padding: 5px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#nuestros-estilos .nuestros-servicios{
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nuestros-estilos .servicios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 5px;
+    border-radius: 7px;
+    height: 150px;
+}
+
+.servicios:first-child{
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("img/Delipacion.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.servicios:nth-child(2){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("img/Blowers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.servicios:nth-child(3){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("img/cejas-pestanas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#nuestros-estilos button{
+    border-radius: 7px;
+    padding: 3px 8px;
+    border: 1px solid rgb(95, 18, 91) ;
+    font-size: 1.2em;
+    background-color:rgb(209, 38, 201) ;
+    box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+#nuestros-estilos button:hover{
+    vertical-align:bottom;
+    background-color:rgb(141, 29, 135) ;
+}
+
+#promos{
+    padding: 100px;
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("NS.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#promos li{
+    padding: 10px 0px;
+    color: white;
+    list-style: none;
+}
+
+#ven-ya{
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("img/Blowers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.colorFoot{
+    color: rgb(211, 45, 175);
+}
+
+footer a{
+    font-size: 2em;
+}
+
+footer a{
+    color: rgb(32, 124, 93);
+    font-weight: bold;
+}
+
+footer a:hover{
+    transition: .5s;
+    font-size: 2.1em;
+    color: rgb(211, 45, 175);
+}
+
+footer .firma{
+    padding-top:6vw;
+    display: flex;
+    align-items:flex-end ;
+    justify-content:end;
+}
